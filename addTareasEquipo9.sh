@@ -1,5 +1,12 @@
-#! /bin/bash
-echo "¿Tenes tareas?"
-read -p "Ingrese su tarea:" tarea
-echo $tarea >> TareasDiarias.txt
-echo "Su tarea se agrego correctamente a Diarias.txt"
+#!/bin/bash
+
+echo "¿Tienes Tareas Nuevas?"
+echo "Tareas actuales en TareasDiarias.txt:"
+cat TareasDiarias.txt
+
+read -p "Ingrese la tarea que quiere agregar: " tarea
+echo "$tarea" >> TareasDiarias.txt
+echo "Su tarea se agregó correctamente a TareasDiarias.txt"
+
+echo "Tareas actualizadas en TareasDiarias.txt:"
+cat TareasDiarias.txt 
