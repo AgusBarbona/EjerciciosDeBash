@@ -9,4 +9,3 @@ echo "$tarea" >> TareasDiarias.txt
 echo "Su tarea se agregó correctamente a TareasDiarias.txt"
 
 echo "Tareas actualizadas en TareasDiarias.txt:"
-cat TareasDiarias.txt 
