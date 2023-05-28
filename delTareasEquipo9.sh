@@ -1,1 +1,0 @@
-cat TareasDiarias.txt

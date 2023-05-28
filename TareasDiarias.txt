@@ -1,3 +1,5 @@
 Bañarme
-Acomodar
 Cocinar
+Limpiar
+Acomodar
+Barrer
